@@ -7,7 +7,7 @@ def username():
 	m = date.today().month
 	d1 = date.today().weekday() + 1
 	if d1 == 1:
-        	d2 = 'Monday'
+		d2 = 'Monday'
 	elif d1 == 2:
 		d2 = 'Tuesday'
 	elif d1 == 3:
@@ -88,7 +88,7 @@ def export(final, user):
 	print('Done!')
 
 def display(final, user):
-	print('There are ', len(final), ' possible password.'
+	print('There are ', len(final), ' possible password.')
 	userinput = input('Do you wish to display the results now?\n')
 	userinput = userinput.upper()
 	if userinput == 'YES':
