@@ -60,7 +60,7 @@ def digit(possWords):
 	results = []
 	for i in range(0,len(possWords)):
 		index = i
-		for i in range(0,9):
+		for i in range(0,10):
 			word = possWords[index] + str(i)
 			results.append(word)
 	print('Done!')
